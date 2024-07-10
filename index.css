@@ -1,0 +1,22 @@
+.bg-container {
+    min-height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-holder {
+    margin: 20px;
+    background-color: darkcyan;
+    padding: 20px;
+}
